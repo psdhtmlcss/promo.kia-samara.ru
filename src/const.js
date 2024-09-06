@@ -3,17 +3,17 @@ import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
 export const SITE_NAME = 'Киа в Самаре';
 // Юр лицо
-export const LEGAL_ENTITY = 'ООО «Киа Россия и СНГ»';
+export const LEGAL_ENTITY = '';
 // ИНН
-export const LEGAL_INN = '1234567890';
+export const LEGAL_INN = '';
 // Город
 export const LEGAL_CITY = 'г. Самара';
 // где? в Городе
 export const LEGAL_CITY_WHERE = 'Самаре';
 // Описание сайта по умолчанию
-export const SITE_DESCR = 'Официальный дилер автомобилей КИА в Самаре';
+export const SITE_DESCR = 'Официальный дилер автомобилей Киа в Самаре';
 // Телефон по умолчанию
-export const PHONE = '8 (846) 211-08-46';
+export const PHONE = '';
 // Бренд
 export const BRAND = 'Киа';
 // Конечное время для таймера
