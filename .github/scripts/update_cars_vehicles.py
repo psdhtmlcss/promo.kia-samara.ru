@@ -1,4 +1,4 @@
-# python3 .github/scripts/update_cars_carcopy.py
+# python3 .github/scripts/update_cars_vehicles.py
 import os
 import yaml
 import shutil
@@ -206,19 +206,26 @@ with open('output.txt', 'w') as file:
 elements_to_localize = ['engineType', 'drive_type', 'gearboxType', 'ptsType', 'color', 'body_type', 'wheel']
 # , 'bodyColor', 'bodyType', 'steeringWheel'
 
-for car in root.find("offers"):
-    rename_child_element(car, 'make', 'mark_id')
+for car in root.find("vehicles"):
+    rename_child_element(car, 'mark', 'mark_id')
     rename_child_element(car, 'model', 'folder_id')
-    rename_child_element(car, 'version', 'modification_id')
-    rename_child_element(car, 'complectation', 'complectation_name')
-    # rename_child_element(car, 'bodyColor', 'color')
+    rename_child_element(car, 'modification', 'modification_id')
+    rename_child_element(car, 'сomplectation-name', 'complectation_name')
+    rename_child_element(car, 'complectation-code', 'complectation_code')
     # rename_child_element(car, 'mileage', 'run')
+    rename_child_element(car, 'engine-type', 'engineType')
     rename_child_element(car, 'body-type', 'body_type')
     rename_child_element(car, 'drive-type', 'drive_type')
     rename_child_element(car, 'steering-wheel', 'wheel')
     rename_child_element(car, "max-discount", 'max_discount')
+    rename_child_element(car, "tradein-discount", 'tradeinDiscount')
+    rename_child_element(car, "credit-discount", 'creditDiscount')
+    rename_child_element(car, "insurance-discount", 'insuranceDiscount')
+    tradein_discount = int(car.find('tradeinDiscount').text or 0)
+    credit_discount = int(car.find('creditDiscount').text or 0)
+    max_discount = credit_discount + tradein_discount
+    create_child_element(car, 'max_discount', max_discount)
     price = int(car.find('price').text or 0)
-    max_discount = int(car.find('max_discount').text or 0)
     create_child_element(car, 'priceWithDiscount', price - max_discount)
     create_child_element(car, 'sale_price', price - max_discount)
     unique_id = f"{build_unique_id(car, 'mark_id', 'folder_id', 'modification_id', 'complectation_name', 'color', 'year')}"

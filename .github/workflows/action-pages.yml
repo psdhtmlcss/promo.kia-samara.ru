@@ -7,6 +7,8 @@
 name: Deploy website to Pages
 
 on:
+  schedule:
+    - cron: '0 2 * * *'  # Запускается в 2 по гринвичу принулительно
   workflow_run:
     workflows: ["Generate Astro Files from XML"]  # Замените на имя вашего рабочего процесса обновления АВН
     types:
@@ -81,6 +83,9 @@ jobs:
           curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/salons.json -o src/data/salons.json
           curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/services.json -o src/data/services.json
           curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/socials.json -o src/data/socials.json
+          if curl --output /dev/null --silent --fail -r 0-0 ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/cars.json; then
+            curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/cars.json -o src/data/cars.json 
+          fi
           if curl --output /dev/null --silent --fail -r 0-0 ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/special-services.json; then
             curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/special-services.json -o src/data/special-services.json 
           fi
@@ -90,7 +95,14 @@ jobs:
           if curl --output /dev/null --silent --fail -r 0-0 ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/reviews.json; then
             curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/reviews.json -o src/data/reviews.json 
           fi
+          if curl --output /dev/null --silent --fail -r 0-0 ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/models-sections.yml; then
+            curl ${{ secrets.JSON_PATH }}/${{ github.event.repository.name }}/data/models-sections.yml -o src/data/models-sections.yml 
+          fi
           ls -al src/data
+
+      - name: Replace Placeholders in JSON
+        run: |
+          node .github/scripts/replacePlaceholdersInJson.js
 
       - name: Build Astro
         if: steps.check_changes.outputs.changes == 'true'
