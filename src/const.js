@@ -1,23 +1,23 @@
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
-export const SITE_NAME = 'Название сайта';
+export const SITE_NAME = 'Киа в Самаре';
 // Юр лицо
-export const LEGAL_ENTITY = 'ООО «Юридическое название»';
+export const LEGAL_ENTITY = 'ООО «Киа Россия и СНГ»';
 // ИНН
 export const LEGAL_INN = '1234567890';
 // Город
-export const LEGAL_CITY = 'г. Город';
+export const LEGAL_CITY = 'г. Самара';
 // где? в Городе
-export const LEGAL_CITY_WHERE = 'Городе';
+export const LEGAL_CITY_WHERE = 'Самаре';
 // Описание сайта по умолчанию
-export const SITE_DESCR = 'Официальный дилерский центр';
+export const SITE_DESCR = 'Официальный дилер автомобилей КИА в Самаре';
 // Имя пользователя в Телегам
 export const TELEGRAM = '';
 // Телефон по умолчанию
-export const PHONE = '+7 (999) 000-00-00';
+export const PHONE = '8 (846) 211-08-46';
 // Бренд
-export const BRAND = 'Baic';
+export const BRAND = 'Киа';
 // Конечное время для таймера
 //string 2024-04-26 or 2024-04-26 23:59:59 or December 31 2015 or December 31 2015 23:59:59 GMT+02:00
 export const TIMER_ENDTIME = '';
