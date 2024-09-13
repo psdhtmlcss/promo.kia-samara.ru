@@ -14,7 +14,16 @@ model_mapping = {
         "folder": "seltos",
         "color": {
             "Темно-серый": "glittering-metal.webp",
-            "Белый": "clear-white",
+            "Серый": "silky-silver.webp",
+            "Белый": "snow-white.webp",
+        }
+    },
+    "Sorento, IV Рестайлинг": {
+        "folder": "sorento",
+        "color": {
+            "Белый": "snow-white.webp",
+            "Серый": "steel-gray.webp",
+            "Черный": "aurora-black-pearl.webp",
         }
     },
 }
