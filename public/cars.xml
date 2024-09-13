@@ -2,31 +2,6 @@
 <data>
   <cars><car>
 			<mark_id>KIA</mark_id>
-			<folder_id>K5, III</folder_id>
-			<modification_id>2.0 AT (150 л.с.)</modification_id>
-			<body_type>Седан</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
-			<color>Черный</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2023</year>
-			<price>4049900</price>
-			<credit_discount>0</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>0</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>0</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2023</registry_year>
-			<vin>MX1G2414BPK247059</vin>
-			<description />
-			<images />
-		<priceWithDiscount>4049900</priceWithDiscount><sale_price>4049900</sale_price><url>https://promo.kia-samara.ru/cars/kia-k5-iii-20-at-150-лс-luxe-черный-2023/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
 			<folder_id>Seltos, I Рестайлинг</folder_id>
 			<modification_id>2.0 CVT (149 л.с.)</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
