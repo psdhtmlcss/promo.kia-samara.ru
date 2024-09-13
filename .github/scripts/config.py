@@ -33,7 +33,7 @@ model_mapping = {
         }
     },
     "Sportage, V": {
-        "folder": "sorento",
+        "folder": "sportage",
         "color": {
             "Белый": "snow-white.webp",
             "Серый": "steel-gray.webp",
