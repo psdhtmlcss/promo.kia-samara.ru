@@ -10,4 +10,11 @@ model_mapping = {
             "Черный": "aurora-black-pearl.webp",
         }
     },
+    "Seltos, I Рестайлинг": {
+        "folder": "seltos",
+        "color": {
+            "Темно-серый": "glittering-metal.webp",
+            "Белый": "clear-white",
+        }
+    },
 }
