@@ -18,12 +18,28 @@ model_mapping = {
             "Белый": "snow-white.webp",
         }
     },
+    "Seltos, I": {
+        "folder": "seltos",
+        "color": {
+            "Серый": "silky-silver.webp",
+        }
+    },
     "Sorento, IV Рестайлинг": {
         "folder": "sorento",
         "color": {
             "Белый": "snow-white.webp",
             "Серый": "steel-gray.webp",
             "Черный": "aurora-black-pearl.webp",
+        }
+    },
+    "Sportage, V": {
+        "folder": "sorento",
+        "color": {
+            "Белый": "snow-white.webp",
+            "Серый": "steel-gray.webp",
+            "Серый (basalt gray)": "steel-gray.webp",
+            "Темно-серый": "gravity-gray.webp",
+            "Черный": "modern-black.webp",
         }
     },
 }
