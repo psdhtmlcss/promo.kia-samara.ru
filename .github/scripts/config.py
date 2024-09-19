@@ -29,6 +29,7 @@ model_mapping = {
         "color": {
             "Белый": "snow-white.webp",
             "Серый": "steel-gray.webp",
+            "Темно-серый": "platinum-graphite.webp",
             "Черный": "aurora-black-pearl.webp",
         }
     },
