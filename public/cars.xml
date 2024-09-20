@@ -121,7 +121,7 @@
 			<max_discount>550000</max_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>MX1RH81DDRK297085</vin>
+			<vin>MX1RH81DDRK296579</vin>
 			<description />
 			<images />
 		<priceWithDiscount>5149900</priceWithDiscount><sale_price>5149900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-темно-серый-2024/</url></car>
@@ -146,7 +146,7 @@
 			<max_discount>550000</max_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>MX1RH81DDRK296579</vin>
+			<vin>MX1RH81DDRK297085</vin>
 			<description />
 			<images />
 		<priceWithDiscount>5149900</priceWithDiscount><sale_price>5149900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-темно-серый-2024/</url></car>
@@ -1385,7 +1385,7 @@
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
 			<year>2024</year>
-			<price>4699900</price>
+			<price>4549900</price>
 			<credit_discount>300000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
@@ -1396,6 +1396,6 @@
 			<vin>MX1PV81DDRK004964</vin>
 			<description />
 			<images />
-		<priceWithDiscount>4149900</priceWithDiscount><sale_price>4149900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
+		<priceWithDiscount>3999900</priceWithDiscount><sale_price>3999900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
 	</cars>
 </data>
