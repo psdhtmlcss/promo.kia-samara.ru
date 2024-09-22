@@ -29,8 +29,9 @@ export const LINK_WIDGET_ORGNIZATION = '';
 export const LINKS_MENU = [
 	{url: 'cars/', name: 'Авто в наличии'},
 	{url: 'models/', name: 'Модели'},
-	{url: 'special-offers/', name: 'Спецпредложения'},
-	{url: 'news/', name: 'Новости'},
+	{url: 'trade-in/', name: 'Оценка автомобиля'},
+	// {url: 'special-offers/', name: 'Спецпредложения'},
+	// {url: 'news/', name: 'Новости'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
