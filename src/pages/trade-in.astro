@@ -7,6 +7,7 @@ const LEGAL_SALONS_INFO = LEGAL_ENTITY && LEGAL_INN ?
 salons
     .filter(salon => salon?.legal_entity && salon?.legal_entity !== '')
     .map(s => `${s?.legal_entity}`);
+import TradeInCalc from '@/components/React/TradeInCalc';
 ---
 
 <PageLayout
@@ -14,5 +15,5 @@ salons
     title={`Онлайн-оценка вашего автомобиля в ${LEGAL_SALONS_INFO.join(' и ')}`}
     breadcrumb={[{name:"Онлайн-оценка вашего автомобиля",href:""}]}
 >
-    
+    <TradeInCalc client:visible />
 </PageLayout>
