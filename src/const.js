@@ -15,7 +15,7 @@ export const SITE_DESCR = 'Официальный дилер автомобил�
 // Телефон по умолчанию
 export const PHONE = '';
 // Бренд
-export const BRAND = 'Киа';
+export const BRAND = 'Kia';
 // Конечное время для таймера
 //string 2024-04-26 or 2024-04-26 23:59:59 or December 31 2015 or December 31 2015 23:59:59 GMT+02:00
 export const TIMER_ENDTIME = '';
