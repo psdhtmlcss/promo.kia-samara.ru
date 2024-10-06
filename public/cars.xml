@@ -816,6 +816,31 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxe</complectation_name>
 			<wheel>левый</wheel>
+			<color>Серый</color>
+			<metallic>да</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>4199900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1PV81DBRK307558</vin>
+			<description />
+			<images />
+		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-серый-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sportage, V</folder_id>
+			<modification_id>2.0 AT (150 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxe</complectation_name>
+			<wheel>левый</wheel>
 			<color>Белый</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -859,110 +884,6 @@
 			<description />
 			<images />
 		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-белый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
-			<color>Серый</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4199900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DBRK307558</vin>
-			<description />
-			<images />
-		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-серый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Prestige</complectation_name>
-			<wheel>левый</wheel>
-			<color>Серый</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4899900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK008326</vin>
-			<description />
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/f19f39878ba7f06b040f57c07d945a30.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/5299adc1e93f2cc0596c269dc2c9e2f9.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/43e623358e6aacfc4e1a978c6eac6260.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c4da7cd7927cea4f039441af6e68087f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c7ee4df19bd48005b29fcd051e5f61e0.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/3cb7b95413b97ad0d117290fd18b5ef6.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/d95c23e1c7d7952c1f8b31efadc6b61d.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/e27de4f367ac621ea66b7709d467c928.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c6b7b2f28627d7e9788c9b9e6cce1898.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/5c0090b0e7713de27f3e1b834cd00f98.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/1cff4c25f6686119feb3dcca10341ee2.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/f644f3874c56972cc5563638b9d2966a.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/4c78bd0f151fbfb36233bac13d209f0e.jpg</image>
-			</images>
-		<priceWithDiscount>4349900</priceWithDiscount><sale_price>4349900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-серый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Prestige</complectation_name>
-			<wheel>левый</wheel>
-			<color>Черный</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4849900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK002427</vin>
-			<description />
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/062e507b1c4349e46c2a28a4afa11bcf.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/01b692f83b37c3e4db317e261ef13c69.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/779bacc5c6d83bc075bc997038c86af2.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/882d7baa9516152b76f9800e48a346c8.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f27e062ae60787fd5e1f2dbc2466b3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f0a0a9b5748fb88d0d174da24b0e6fa.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0503be26836d0ca7eb32841396f91.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/9056a48ffb5029a45bbb506f0eae5298.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f8f68c3c285b9a5cbe281630d4c12e.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0ccf74bd9a421e167114f9ee8e1a3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/8feb8db974c6d2c523cb48d16719f0fe.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f88ce7a2bcea038ba286e48b36c2c33.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/e0c64ffff97f5ecd2748cfb9dff87075.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/721cd6c08a59eec17fd3974d50689060.jpg</image>
-			</images>
-		<priceWithDiscount>4299900</priceWithDiscount><sale_price>4299900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
@@ -1051,6 +972,85 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Prestige</complectation_name>
 			<wheel>левый</wheel>
+			<color>Черный</color>
+			<metallic>да</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>4849900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1PV81DDRK002427</vin>
+			<description />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/062e507b1c4349e46c2a28a4afa11bcf.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/01b692f83b37c3e4db317e261ef13c69.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/779bacc5c6d83bc075bc997038c86af2.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/882d7baa9516152b76f9800e48a346c8.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f27e062ae60787fd5e1f2dbc2466b3.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f0a0a9b5748fb88d0d174da24b0e6fa.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0503be26836d0ca7eb32841396f91.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/9056a48ffb5029a45bbb506f0eae5298.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f8f68c3c285b9a5cbe281630d4c12e.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0ccf74bd9a421e167114f9ee8e1a3.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/8feb8db974c6d2c523cb48d16719f0fe.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f88ce7a2bcea038ba286e48b36c2c33.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/e0c64ffff97f5ecd2748cfb9dff87075.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/721cd6c08a59eec17fd3974d50689060.jpg</image>
+			</images>
+		<priceWithDiscount>4299900</priceWithDiscount><sale_price>4299900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sportage, V</folder_id>
+			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Prestige</complectation_name>
+			<wheel>левый</wheel>
+			<color>Серый</color>
+			<metallic>да</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>4899900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1PV81DDRK008326</vin>
+			<description />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/f19f39878ba7f06b040f57c07d945a30.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/5299adc1e93f2cc0596c269dc2c9e2f9.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/43e623358e6aacfc4e1a978c6eac6260.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c4da7cd7927cea4f039441af6e68087f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c7ee4df19bd48005b29fcd051e5f61e0.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/3cb7b95413b97ad0d117290fd18b5ef6.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/d95c23e1c7d7952c1f8b31efadc6b61d.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/e27de4f367ac621ea66b7709d467c928.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/c6b7b2f28627d7e9788c9b9e6cce1898.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/5c0090b0e7713de27f3e1b834cd00f98.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/1cff4c25f6686119feb3dcca10341ee2.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/f644f3874c56972cc5563638b9d2966a.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK008326/4c78bd0f151fbfb36233bac13d209f0e.jpg</image>
+			</images>
+		<priceWithDiscount>4349900</priceWithDiscount><sale_price>4349900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-серый-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sportage, V</folder_id>
+			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Prestige</complectation_name>
+			<wheel>левый</wheel>
 			<color>Белый</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -1101,31 +1101,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Style</complectation_name>
 			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4899900</price>
-			<credit_discount>250000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>300000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK298472</vin>
-			<description />
-			<images />
-		<priceWithDiscount>4349900</priceWithDiscount><sale_price>4349900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-style-белый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Style</complectation_name>
-			<wheel>левый</wheel>
 			<color>Черный</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -1144,6 +1119,31 @@
 			<description />
 			<images />
 		<priceWithDiscount>4349900</priceWithDiscount><sale_price>4349900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-style-черный-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sportage, V</folder_id>
+			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Style</complectation_name>
+			<wheel>левый</wheel>
+			<color>Белый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>4899900</price>
+			<credit_discount>250000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>300000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1PV81DDRK298472</vin>
+			<description />
+			<images />
+		<priceWithDiscount>4349900</priceWithDiscount><sale_price>4349900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-style-белый-2024/</url></car>
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
