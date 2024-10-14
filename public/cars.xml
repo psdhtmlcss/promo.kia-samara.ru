@@ -593,31 +593,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxe</complectation_name>
 			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>6099900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1RH81DDRK289494</vin>
-			<description />
-			<images />
-		<priceWithDiscount>5549900</priceWithDiscount><sale_price>5549900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-белый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sorento, IV Рестайлинг</folder_id>
-			<modification_id>2.5 AT (179 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
 			<color>Черный</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -661,6 +636,31 @@
 			<description />
 			<images />
 		<priceWithDiscount>5499900</priceWithDiscount><sale_price>5499900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-черный-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sorento, IV Рестайлинг</folder_id>
+			<modification_id>2.5 AT (179 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxe</complectation_name>
+			<wheel>левый</wheel>
+			<color>Белый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>6099900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1RH81DDRK289494</vin>
+			<description />
+			<images />
+		<priceWithDiscount>5549900</priceWithDiscount><sale_price>5549900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-белый-2024/</url></car>
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sorento, IV Рестайлинг</folder_id>
@@ -718,6 +718,46 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxe</complectation_name>
 			<wheel>левый</wheel>
+			<color>белый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>4599900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<max_discount>550000</max_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1PV81DDRK007586</vin>
+			<description />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/4d1938068774b21c7f45d5da92d0f71a.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/a55882c20f1f79e6419a724e332c12aa.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/e178caf6ecbee05eb6df2cb63354bdca.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/eda16655a63db05fecf7de0f259b2081.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/12795943493377edf6ea09cd6703b590.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/3a94a109cc9dc09e7b7f476753c65ce5.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/a857734712620b239bf5fa4240185f78.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/3ef3288aae93de79d15d1c93c69a99c1.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/ea8a01a17c55d982dfab9b66d0b137fc.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/1e42f05f823151eaee49892eeaf52370.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/f2707a41d3a9bc093a5726699a80e3b9.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/7f103582783f46eac572e730d4cf2869.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/9ac1a63924c84ba089228341829b5942.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/e0a5895ff6ab002ec514c11b951a6255.jpg</image>
+			</images>
+		<priceWithDiscount>4049900</priceWithDiscount><sale_price>4049900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-luxe-белый-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sportage, V</folder_id>
+			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxe</complectation_name>
+			<wheel>левый</wheel>
 			<color>Черный</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -754,17 +794,17 @@
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
+			<modification_id>2.0 AT (150 л.с.)</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxe</complectation_name>
 			<wheel>левый</wheel>
-			<color>белый</color>
-			<metallic>нет</metallic>
+			<color>Серый</color>
+			<metallic>да</metallic>
 			<availability>в наличии</availability>
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
 			<year>2024</year>
-			<price>4599900</price>
+			<price>4199900</price>
 			<credit_discount>300000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
@@ -772,25 +812,10 @@
 			<max_discount>550000</max_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK007586</vin>
+			<vin>MX1PV81DBRK307558</vin>
 			<description />
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/4d1938068774b21c7f45d5da92d0f71a.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/a55882c20f1f79e6419a724e332c12aa.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/e178caf6ecbee05eb6df2cb63354bdca.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/eda16655a63db05fecf7de0f259b2081.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/12795943493377edf6ea09cd6703b590.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/3a94a109cc9dc09e7b7f476753c65ce5.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/a857734712620b239bf5fa4240185f78.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/3ef3288aae93de79d15d1c93c69a99c1.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/ea8a01a17c55d982dfab9b66d0b137fc.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/1e42f05f823151eaee49892eeaf52370.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/f2707a41d3a9bc093a5726699a80e3b9.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/7f103582783f46eac572e730d4cf2869.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/9ac1a63924c84ba089228341829b5942.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK007586/e0a5895ff6ab002ec514c11b951a6255.jpg</image>
-			</images>
-		<priceWithDiscount>4049900</priceWithDiscount><sale_price>4049900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-luxe-белый-2024/</url></car>
+			<images />
+		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-серый-2024/</url></car>
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
@@ -841,31 +866,6 @@
 			<description />
 			<images />
 		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-белый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
-			<color>Серый</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4199900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DBRK307558</vin>
-			<description />
-			<images />
-		<priceWithDiscount>3649900</priceWithDiscount><sale_price>3649900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-серый-2024/</url></car>
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
