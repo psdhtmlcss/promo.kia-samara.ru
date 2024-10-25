@@ -15,7 +15,15 @@ export default defineConfig({
 			configFile: './tailwind.kia.js'
 		}),
 		sitemap(),
-		robots(),
+		robots({
+			policy: [
+				{
+					userAgent: ["*"],
+					allow: ["/"],
+					disallow: ["/?*"],
+				},
+			  ],
+		}),
 		alpinejs(),
 		mdx(),
 		icon(),
