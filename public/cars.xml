@@ -732,31 +732,6 @@
 		<car>
 			<mark_id>KIA</mark_id>
 			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>3999900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DBRK299440</vin>
-			<description />
-			<images />
-		<priceWithDiscount>3449900</priceWithDiscount><sale_price>3449900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-luxe-белый-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
 			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Prestige</complectation_name>
