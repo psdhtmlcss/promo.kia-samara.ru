@@ -1,0 +1,80 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import Button from '@/components/Button/Button.astro';
+import Checkbox from '@/components/Checkbox/Checkbox.astro';
+import {SITE_NAME, LEGAL_ENTITY, LEGAL_INN, LEGAL_CITY} from '@/const';
+const includeModels = ['k5', 'sportage', 'sorento'];
+import rawModels from '@/data/models.json';
+const models = rawModels.filter(model => includeModels.includes(model.id));
+---
+
+<PageLayout
+    h1="Новые и&nbsp;автомобили с&nbsp;пробегом из&nbsp;Казахстана от&nbsp;2019 года с&nbsp;выгодой до&nbsp;60%"
+    title="Автомобили Kia из Казахстана"
+    breadcrumb={[{name:"Автомобили Kia из Казахстана", href:""}]}
+    description="Подбор и доставка автомобилей Kia из Казахстана в Россию под ключ."
+>
+    <div 
+        x-data={`{
+            models: ${JSON.stringify(models)},
+            curModel: null,
+            step: 1, 
+            model: null,
+            complectation: null,
+            currentModel(id){ 
+                this.curModel = this.models.find(model => model.id === id);                
+            }
+        }`}
+    >
+        <div x-show="step === 0" x-transition>
+            <ul>
+                <li> - Вы получите эПТС и тех. паспорт на авто</li>
+                <li> - Рассрочка на услуги ДЦ {SITE_NAME}</li>
+                <li> - Депозитный договор и инвойс на Ваше имя.</li>
+            </ul>
+        
+            <Button 
+                classes="!text-white !no-underline"
+                title="Подобрать авто"
+                x-on:click.prevent="step = 1"
+            />
+        </div>
+
+        <div x-show="step === 1" x-transition class="grid grid-cols-3 gap-4">
+            <div>
+                <div class="text-xl font-bold mb-1">Выберите модель:</div>
+                {models.map(model => (
+                    <Checkbox
+                        type="radio"
+                        x-model="model"
+                        label={model.name}
+                        value={model.name}
+                        color="black"
+                        required
+                        errorClasses="text-red-500 w-full"
+                        errorText="Чтобы продолжить, установите флажок"
+                        @change={`currentModel('${model.id}')`}
+                    />
+                ))}
+            </div>
+            <template x-if="curModel">
+                <div>
+                    <div class="text-xl font-bold mb-1">Выберите комплектацию:</div>
+                    <template x-for="(compl, idx) in curModel.complectations" :key="compl.name+idx">
+                        <Checkbox
+                            type="radio"
+                            x-model="complectation"
+                            :label="compl.name"
+                            :value="compl.name"
+                            color="black"
+                            required
+                            errorClasses="text-red-500 w-full"
+                            errorText="Чтобы продолжить, установите флажок"
+                        />
+                    </template>
+                </div>
+            </template>
+        </div>
+    </div>
+
+</PageLayout>
