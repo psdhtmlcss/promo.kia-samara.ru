@@ -4,9 +4,21 @@ import './modules/modals';
 import './modules/latest.posts';
 import './modules/stock-slider';
 
-import { connectForms, cookiecook } from '@alexsab-ru/scripts';
+import { connectForms, cookiecook, showMessageModal, successIcon, successText, messageModal  } from '@alexsab-ru/scripts';
 cookiecook();
 connectForms('https://alexsab.ru/lead/test/', {
+	callback(data){
+		showMessageModal(messageModal, successIcon, successText);
+		setTimeout(() => {			 
+			Alpine.store('import').model = null;
+			Alpine.store('import').currentModel = null;
+			Alpine.store('import').complectation = null;
+			Alpine.store('import').color = null;
+			Alpine.store('import').drive = null;
+			Alpine.store('import').drives = [];
+			Alpine.store('import').step = 0;
+		}, 1000);
+	},
 	confirmModalText: 'Вы уже оставляли заявку сегодня, с Вами обязательно свяжутся в ближайшее время!',
 });
 

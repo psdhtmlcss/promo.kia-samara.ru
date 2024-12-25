@@ -31,6 +31,7 @@ export const LINKS_MENU = [
 	// {url: 'catalog/', name: 'Каталог'},
 	{url: 'used_cars/', name: 'Авто с пробегом'},
 	{url: 'models/', name: 'Модели'},
+	{url: 'request-kz/', name: 'Подбор авто'},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	// {url: 'special-offers/', name: 'Спецпредложения'},
 	// {url: 'news/', name: 'Новости'},
@@ -42,7 +43,7 @@ export const LINKS_MENU = [
 // Текстовая строка над хедером
 export const HEADER_TOP_LINE = '';
 // Текст согласия в формах
-export const AGREE_LABEL = '<span>Я согласен на</span><a href="/privacy-policy" class="underline transition-all hover:no-underline" target="_blank">обработку персональных данных</a>';
+export const AGREE_LABEL = '<span class="pt-1">Я согласен на</span><a href="/privacy-policy" class="underline transition-all hover:no-underline !m-0 !text-base" target="_blank">обработку персональных данных</a>';
 // Текст информации в футере
 import salons from '@/data/salons.json';
 const phones = PHONE ? [`<a class="whitespace-nowrap" href="tel:${phoneFormat(PHONE)}">${PHONE}</a>`] : salons.map((salon) => { return `<span>${salon.name}</span> <a class="whitespace-nowrap" href="tel:${phoneFormat(salon.phone)}">${salon.phone}</a>` });
