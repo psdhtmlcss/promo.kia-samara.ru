@@ -9,26 +9,26 @@ importers:
   .:
     dependencies:
       '@alexsab-ru/scripts':
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.11.0
+        version: 0.11.0
       '@astrojs/alpinejs':
         specifier: ^0.4.0
         version: 0.4.0(@types/alpinejs@3.13.6)(alpinejs@3.13.5)
       '@astrojs/mdx':
         specifier: ^2.1.1
-        version: 2.1.1(astro@4.4.5)
+        version: 2.1.1(astro@4.4.5(@types/node@20.11.19)(sass@1.71.1))
       '@astrojs/react':
         specifier: ^3.6.2
-        version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.1.3)
+        version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1))
       '@astrojs/sitemap':
         specifier: ^3.1.1
         version: 3.1.1
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.4.5)(tailwindcss@3.4.1)
+        version: 5.1.0(astro@4.4.5(@types/node@20.11.19)(sass@1.71.1))(tailwindcss@3.4.1)
       '@hookform/resolvers':
         specifier: ^3.9.0
-        version: 3.9.0(react-hook-form@7.53.0)
+        version: 3.9.0(react-hook-form@7.53.0(react@18.3.1))
       '@iconify-json/mdi':
         specifier: ^1.1.64
         version: 1.1.64
@@ -46,7 +46,7 @@ importers:
         version: 3.13.5
       astro:
         specifier: ^4.4.5
-        version: 4.4.5(sass@1.71.1)
+        version: 4.4.5(@types/node@20.11.19)(sass@1.71.1)
       astro-icon:
         specifier: ^1.1.0
         version: 1.1.0
@@ -86,15 +86,15 @@ importers:
     devDependencies:
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
-        version: 4.1.2
+        version: 4.1.2(rollup@4.11.0)
       sass:
         specifier: ^1.71.1
         version: 1.71.1
 
 packages:
 
-  '@alexsab-ru/scripts@0.10.0':
-    resolution: {integrity: sha512-YSg7gX2mBEXRXrjzMKeSDdJ2RYhnMQy5IEpuKehY2jQuOYOcDMp+v/2bvu1aWj1A6xT3ChO63dcPVQrQD3ILBA==}
+  '@alexsab-ru/scripts@0.11.0':
+    resolution: {integrity: sha512-WMN6+PGqTQuPRSE4kuXocPaYUEClrJb0oajEvB0n41zrIVqZEfers75MnNHT6Jwil6p7D4xjElVx/js64rUJ3g==}
 
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
@@ -2674,7 +2674,7 @@ packages:
 
 snapshots:
 
-  '@alexsab-ru/scripts@0.10.0': {}
+  '@alexsab-ru/scripts@0.11.0': {}
 
   '@alloc/quick-lru@5.2.0': {}
 
@@ -2718,12 +2718,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@2.1.1(astro@4.4.5)':
+  '@astrojs/mdx@2.1.1(astro@4.4.5(@types/node@20.11.19)(sass@1.71.1))':
     dependencies:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.4.5(sass@1.71.1)
+      astro: 4.4.5(@types/node@20.11.19)(sass@1.71.1)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -2743,11 +2743,11 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1)(react@18.3.1)(vite@5.1.3)':
+  '@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1))':
     dependencies:
       '@types/react': 18.3.8
       '@types/react-dom': 18.3.0
-      '@vitejs/plugin-react': 4.3.1(vite@5.1.3)
+      '@vitejs/plugin-react': 4.3.1(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1))
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       ultrahtml: 1.5.3
@@ -2760,9 +2760,9 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.22.4
 
-  '@astrojs/tailwind@5.1.0(astro@4.4.5)(tailwindcss@3.4.1)':
+  '@astrojs/tailwind@5.1.0(astro@4.4.5(@types/node@20.11.19)(sass@1.71.1))(tailwindcss@3.4.1)':
     dependencies:
-      astro: 4.4.5(sass@1.71.1)
+      astro: 4.4.5(@types/node@20.11.19)(sass@1.71.1)
       autoprefixer: 10.4.17(postcss@8.4.35)
       postcss: 8.4.35
       postcss-load-config: 4.0.2(postcss@8.4.35)
@@ -3120,7 +3120,7 @@ snapshots:
   '@esbuild/win32-x64@0.19.12':
     optional: true
 
-  '@hookform/resolvers@3.9.0(react-hook-form@7.53.0)':
+  '@hookform/resolvers@3.9.0(react-hook-form@7.53.0(react@18.3.1))':
     dependencies:
       react-hook-form: 7.53.0(react@18.3.1)
 
@@ -3241,17 +3241,21 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@rollup/plugin-yaml@4.1.2':
+  '@rollup/plugin-yaml@4.1.2(rollup@4.11.0)':
     dependencies:
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.0(rollup@4.11.0)
       js-yaml: 4.1.0
       tosource: 2.0.0-alpha.3
+    optionalDependencies:
+      rollup: 4.11.0
 
-  '@rollup/pluginutils@5.1.0':
+  '@rollup/pluginutils@5.1.0(rollup@4.11.0)':
     dependencies:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.11.0
 
   '@rollup/rollup-android-arm-eabi@4.11.0':
     optional: true
@@ -3388,14 +3392,14 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react@4.3.1(vite@5.1.3)':
+  '@vitejs/plugin-react@4.3.1(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.1.3(sass@1.71.1)
+      vite: 5.1.3(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3466,7 +3470,7 @@ snapshots:
 
   astro-robots@2.0.0: {}
 
-  astro@4.4.5(sass@1.71.1):
+  astro@4.4.5(@types/node@20.11.19)(sass@1.71.1):
     dependencies:
       '@astrojs/compiler': 2.5.3
       '@astrojs/internal-helpers': 0.2.1
@@ -3527,8 +3531,8 @@ snapshots:
       tsconfck: 3.0.2
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.1.3(sass@1.71.1)
-      vitefu: 0.2.5(vite@5.1.3)
+      vite: 5.1.3(@types/node@20.11.19)(sass@1.71.1)
+      vitefu: 0.2.5(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -5128,8 +5132,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.35):
     dependencies:
       lilconfig: 3.1.0
-      postcss: 8.4.35
       yaml: 2.3.4
+    optionalDependencies:
+      postcss: 8.4.35
 
   postcss-nested@6.0.1(postcss@8.4.35):
     dependencies:
@@ -5800,18 +5805,19 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@5.1.3(sass@1.71.1):
+  vite@5.1.3(@types/node@20.11.19)(sass@1.71.1):
     dependencies:
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.11.0
-      sass: 1.71.1
     optionalDependencies:
+      '@types/node': 20.11.19
       fsevents: 2.3.3
+      sass: 1.71.1
 
-  vitefu@0.2.5(vite@5.1.3):
-    dependencies:
-      vite: 5.1.3(sass@1.71.1)
+  vitefu@0.2.5(vite@5.1.3(@types/node@20.11.19)(sass@1.71.1)):
+    optionalDependencies:
+      vite: 5.1.3(@types/node@20.11.19)(sass@1.71.1)
 
   web-namespaces@2.0.1: {}
 
@@ -5876,7 +5882,7 @@ snapshots:
   zod@3.22.4: {}
 
   zustand@5.0.0-rc.2(@types/react@18.3.8)(react@18.3.1):
-    dependencies:
+    optionalDependencies:
       '@types/react': 18.3.8
       react: 18.3.1
 
