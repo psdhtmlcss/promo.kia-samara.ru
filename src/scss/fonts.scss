@@ -1,3 +1,5 @@
-@include font("KiaSignature", normal, 300, "/fonts/KiaSignatureLight.woff2");
-@include font("KiaSignature", normal, 500, "/fonts/KiaSignatureRegular.woff2");
-@include font("KiaSignature", normal, 700, "/fonts/KiaSignatureBold.woff2");
+@use "mixins";
+
+@include mixins.font("KiaSignature", normal, 300, "/fonts/KiaSignatureLight.woff2");
+@include mixins.font("KiaSignature", normal, 500, "/fonts/KiaSignatureRegular.woff2");
+@include mixins.font("KiaSignature", normal, 700, "/fonts/KiaSignatureBold.woff2");
