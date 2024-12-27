@@ -542,46 +542,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Prestige</complectation_name>
 			<wheel>левый</wheel>
-			<color>Черный</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4749900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<max_discount>550000</max_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK002427</vin>
-			<description />
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/062e507b1c4349e46c2a28a4afa11bcf.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/01b692f83b37c3e4db317e261ef13c69.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/779bacc5c6d83bc075bc997038c86af2.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/882d7baa9516152b76f9800e48a346c8.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f27e062ae60787fd5e1f2dbc2466b3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f0a0a9b5748fb88d0d174da24b0e6fa.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0503be26836d0ca7eb32841396f91.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/9056a48ffb5029a45bbb506f0eae5298.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f8f68c3c285b9a5cbe281630d4c12e.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0ccf74bd9a421e167114f9ee8e1a3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/8feb8db974c6d2c523cb48d16719f0fe.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f88ce7a2bcea038ba286e48b36c2c33.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/e0c64ffff97f5ecd2748cfb9dff87075.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/721cd6c08a59eec17fd3974d50689060.jpg</image>
-			</images>
-		<priceWithDiscount>4199900</priceWithDiscount><sale_price>4199900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sportage, V</folder_id>
-			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Prestige</complectation_name>
-			<wheel>левый</wheel>
 			<color>Серый</color>
 			<metallic>да</metallic>
 			<availability>в наличии</availability>
@@ -619,38 +579,40 @@
 			<folder_id>Sportage, V</folder_id>
 			<modification_id>2.0 AT (150 л.с.) 4WD</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Style</complectation_name>
+			<complectation_name>Prestige</complectation_name>
 			<wheel>левый</wheel>
-			<color>Серый</color>
+			<color>Черный</color>
 			<metallic>да</metallic>
 			<availability>в наличии</availability>
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
 			<year>2024</year>
-			<price>4699900</price>
-			<credit_discount>250000</credit_discount>
+			<price>4749900</price>
+			<credit_discount>300000</credit_discount>
 			<insurance_discount>0</insurance_discount>
-			<tradein_discount>300000</tradein_discount>
+			<tradein_discount>250000</tradein_discount>
 			<optional_discount>0</optional_discount>
 			<max_discount>550000</max_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>MX1PV81DDRK298581</vin>
+			<vin>MX1PV81DDRK002427</vin>
 			<description />
 			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/74fc66619c05889f265d26776cf4e237.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/54cd25442ded38c897de0b5fda746730.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/8fb24697bd6858fc08f30597d04ecee3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/5683431297878b13634b5a57f3876b92.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/93c31f88b5817741d47de62d3af9770f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/8eb2a2e18689d58e2cda0969696f0106.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/d3929cd0e1dad71652e71315aa82972a.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/7ad6d4bd00fd284934ee33a1733685c4.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/b6b832dee5e27d9d7fb3237510259bff.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/8e247082ee83eac5300e50d1c973c200.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/ebcd69028d25d07f7e765e979d4d54ba.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK298581/b3b4b5858268143c597022dc9fb86bdd.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/062e507b1c4349e46c2a28a4afa11bcf.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/01b692f83b37c3e4db317e261ef13c69.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/779bacc5c6d83bc075bc997038c86af2.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/882d7baa9516152b76f9800e48a346c8.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f27e062ae60787fd5e1f2dbc2466b3.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f0a0a9b5748fb88d0d174da24b0e6fa.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0503be26836d0ca7eb32841396f91.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/9056a48ffb5029a45bbb506f0eae5298.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/a2f8f68c3c285b9a5cbe281630d4c12e.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/d6f0ccf74bd9a421e167114f9ee8e1a3.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/8feb8db974c6d2c523cb48d16719f0fe.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/7f88ce7a2bcea038ba286e48b36c2c33.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/e0c64ffff97f5ecd2748cfb9dff87075.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1PV81DDRK002427/721cd6c08a59eec17fd3974d50689060.jpg</image>
 			</images>
-		<priceWithDiscount>4149900</priceWithDiscount><sale_price>4149900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-style-серый-2024/</url></car>
+		<priceWithDiscount>4199900</priceWithDiscount><sale_price>4199900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sportage-v-20-at-150-лс-4wd-prestige-черный-2024/</url></car>
 	</cars>
 </data>
