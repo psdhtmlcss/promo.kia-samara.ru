@@ -62,7 +62,7 @@ if(lazys.length){
 
 function executeRecaptcha() {
 grecaptcha.ready(function() {
-	grecaptcha.execute('6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6', {action: 'open'}).then(function(token) {
+	grecaptcha.execute('6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6', {action: 'promo_kia_samara'}).then(function(token) {
 		let formData = new FormData();
 		formData.append('g-recaptcha-response', token);
 		const params = new URLSearchParams([...formData]);
