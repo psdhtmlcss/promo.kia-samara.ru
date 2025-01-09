@@ -40,6 +40,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://alexsab-ru.github.io',
-	base: "/promo.kia-samara.ru/"
+	site: 'https://promo.kia-samara.ru',
+	base: "/"
 });
