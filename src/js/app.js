@@ -6,7 +6,7 @@ import './modules/stock-slider';
 
 import { connectForms, cookiecook, showMessageModal, successIcon, successText, messageModal  } from '@alexsab-ru/scripts';
 cookiecook();
-connectForms('https://alexsab.ru/lead/test/', {
+connectForms('https://alexsab.ru/lead/kia/', {
 	callback(data){
 		showMessageModal(messageModal, successIcon, successText);
 		setTimeout(() => {			 
