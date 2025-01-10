@@ -30,6 +30,28 @@ export default defineConfig({
 		icon(),
 		react(),
 	],
+	redirects: {
+		'/sportage/': {
+			status: 301,
+			destination:'/models/sportage/'
+		},
+		'/k5/': {
+			status: 301,
+			destination:'/models/k5//'
+		},
+		'/sorento/': {
+			status: 301,
+			destination:'/models/sorento2024/'
+		},
+		'/seltos/': {
+			status: 301,
+			destination:'/models/seltos/'
+		},
+		'/soul/': {
+			status: 301,
+			destination:'/models/soul/'
+		},
+	},
 	vite: {
 		plugins: [yaml()],
 		css: {
