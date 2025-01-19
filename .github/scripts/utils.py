@@ -302,7 +302,7 @@ def update_car_prices(car, prices_data: Dict[str, Dict[str, int]]) -> None:
     if vin in prices_data:
         car_prices = prices_data[vin]
         final_price = car_prices["Конечная цена"]
-        if final_price < current_sale_price:
+        if final_price <= current_sale_price:
             discount = car_prices["Скидка"]
             rrp = car_prices["РРЦ"]
             car.find('priceWithDiscount').text = str(final_price)
@@ -398,7 +398,7 @@ def should_remove_car(car: ET.Element, mark_ids: list, folder_ids: list) -> bool
     return False
 
 
-def create_file(car, filename, friendly_url, current_thumbs, existing_files, elements_to_localize, config):
+def create_file(car, filename, friendly_url, current_thumbs, existing_files, config):
     vin = car.find('vin').text
     vin_hidden = process_vin_hidden(vin)
     # Преобразование цвета
@@ -465,10 +465,6 @@ def create_file(car, filename, friendly_url, current_thumbs, existing_files, ele
 
     description = ""
 
-    for elem_name in elements_to_localize:
-        elem = car.find(elem_name)
-        localize_element_text(elem)
-
     color = car.find('color').text.strip().capitalize()
     encountered_tags = set()  # Создаем множество для отслеживания встреченных тегов
 
@@ -513,7 +509,7 @@ def create_file(car, filename, friendly_url, current_thumbs, existing_files, ele
                 continue  # Если встречался, переходим к следующей итерации цикла
             encountered_tags.add(child.tag)  # Добавляем встреченный тег в множество
             if child.text:  # Only add if there's content
-                content += f"{child.tag}: {child.text}\n"
+                content += f"{child.tag}: {format_value(child.text)}\n"
 
     content += "---\n"
     content += process_description(description)
@@ -524,6 +520,21 @@ def create_file(car, filename, friendly_url, current_thumbs, existing_files, ele
     print(f"Создан файл: {filename}")
     existing_files.add(filename)
 
+def format_value(value: str) -> str:
+    """
+    Форматирует значение в зависимости от наличия специальных символов.
+    
+    Args:
+        value (str): Исходное значение.
+        
+    Returns:
+        str: Отформатированное значение.
+    """
+    if "'" in value:  # Если есть одинарная кавычка, используем двойные кавычки
+        return f'"{value}"'
+    elif ":" in value:  # Если есть двоеточие, используем одинарные кавычки
+        return f"'{value}'"
+    return value
 
 def update_yaml(car, filename, friendly_url, current_thumbs, config):
 
