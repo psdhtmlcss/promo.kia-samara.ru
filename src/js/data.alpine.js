@@ -331,7 +331,8 @@ document.addEventListener('alpine:init', () => {
 		models: [
 			'K5',
 			'Sportage',
-			'Sorento'
+			'Sorento',
+			'Seltos'
 		],
 		brand: null,
 		complectation: null,
@@ -368,7 +369,7 @@ document.addEventListener('alpine:init', () => {
 			'Передний'
 		],
 		termOfPurchase: 'Кредит',
-		termsOfPurchase: ['Кредит', 'Лизинг', 'Рассрочка', 'Полная оплата'],
+		termsOfPurchase: ['Кредит', 'Лизинг', 'Полная оплата'],
 		initialPayment: '0%',
 		initialPayments: ['0%', '10%', '20%', '30%'],
 		planningPurchase: 'Готов сейчас',
