@@ -27,15 +27,15 @@ export const LINK_WIDGET = 'https://yandex.ru/map-widget/v1/-/';
 export const LINK_WIDGET_ORGNIZATION = '';
 // Ссылки под хедером
 export const LINKS_MENU = [
+	{url: 'request-kz/', name: 'Заказ авто из KZ'},
 	{url: 'cars/', name: 'Авто в наличии'},
 	// {url: 'catalog/', name: 'Каталог'},
 	{url: 'used_cars/', name: 'Авто с пробегом'},
 	{url: 'models/', name: 'Модели'},
-	{url: 'request-kz/', name: 'Подбор авто'},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	// {url: 'special-offers/', name: 'Спецпредложения'},
 	// {url: 'news/', name: 'Новости'},
-	{url: 'test-drive/', name: 'Запись на тест-драйв'},
+	// {url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
 	{url: 'contacts/', name: 'Контакты'},
