@@ -191,47 +191,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxe</complectation_name>
 			<wheel>левый</wheel>
-			<color>Черный</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>6049900</price>
-			<credit_discount>300000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>MX1RH81DDRK297079</vin>
-			<description />
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/80afba3c7cdb85194f945db61da51592.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/b9b44fc80a04e680d2a4f6f45275ad6f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/14487bcdb8e60225646f94ff502fd09b.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/27c707768a5fe4a7bbf149be61627d40.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/8f65d7a09881cb2ae2cae2531882046e.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1cce213480d28062457d36a26166db59.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1e941a405ec05f5acd1fb10fbab554c3.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/3e046436e22857ec753231943b3f3ab6.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/2cbdbc5ff1b509ab2bb603c8e16df17d.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1d002a3f2ef0c7d6f9c4765f72042370.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/f8c65c5b688011d24f5d97f8f68ca377.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/6e9f663c3a80ffb0024a3d5d88611a26.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/904f00a4587fd5b6d6fcd8d9af97ab73.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/7b9c01fe4138e9d7145c87f37d8873da.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/5a6c380094e54a28ca1f7134c904cf61.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/9ffb5167ee76b248ee686b457cff4e83.jpg</image>
-			</images>
-		<max_discount>550000</max_discount><priceWithDiscount>5499900</priceWithDiscount><sale_price>5499900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-черный-2024/</url></car>
-		<car>
-			<mark_id>KIA</mark_id>
-			<folder_id>Sorento, IV Рестайлинг</folder_id>
-			<modification_id>2.5 AT (179 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxe</complectation_name>
-			<wheel>левый</wheel>
 			<color>Белый</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -269,5 +228,46 @@
 				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK289494/51734ae76da3dff608793cec6e4f472b.jpg</image>
 			</images>
 		<max_discount>550000</max_discount><priceWithDiscount>5549900</priceWithDiscount><sale_price>5549900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-белый-2024/</url></car>
+		<car>
+			<mark_id>KIA</mark_id>
+			<folder_id>Sorento, IV Рестайлинг</folder_id>
+			<modification_id>2.5 AT (179 л.с.) 4WD</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxe</complectation_name>
+			<wheel>левый</wheel>
+			<color>Черный</color>
+			<metallic>да</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>6049900</price>
+			<credit_discount>300000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>MX1RH81DDRK297079</vin>
+			<description />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/80afba3c7cdb85194f945db61da51592.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/b9b44fc80a04e680d2a4f6f45275ad6f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/14487bcdb8e60225646f94ff502fd09b.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/27c707768a5fe4a7bbf149be61627d40.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/8f65d7a09881cb2ae2cae2531882046e.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1cce213480d28062457d36a26166db59.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1e941a405ec05f5acd1fb10fbab554c3.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/3e046436e22857ec753231943b3f3ab6.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/2cbdbc5ff1b509ab2bb603c8e16df17d.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/1d002a3f2ef0c7d6f9c4765f72042370.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/f8c65c5b688011d24f5d97f8f68ca377.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/6e9f663c3a80ffb0024a3d5d88611a26.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/904f00a4587fd5b6d6fcd8d9af97ab73.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/7b9c01fe4138e9d7145c87f37d8873da.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/5a6c380094e54a28ca1f7134c904cf61.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//MX1RH81DDRK297079/9ffb5167ee76b248ee686b457cff4e83.jpg</image>
+			</images>
+		<max_discount>550000</max_discount><priceWithDiscount>5499900</priceWithDiscount><sale_price>5499900</sale_price><url>https://promo.kia-samara.ru/cars/kia-sorento-iv-рестайлинг-25-at-179-лс-4wd-luxe-черный-2024/</url></car>
 	</cars>
 </data>
