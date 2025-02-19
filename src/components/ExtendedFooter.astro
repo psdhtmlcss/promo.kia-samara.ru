@@ -1,10 +1,11 @@
 ---
-import { SITE_NAME, LEGAL_ENTITY, LEGAL_INN, BRAND, FOOTER_INFO, LINKS_MENU as links } from '@/const';
+import { SITE_NAME, LEGAL_ENTITY, LEGAL_INN, BRAND, FOOTER_INFO, LINKS_MENU as links, Region } from '@/const';
 import { YEAR } from '@/js/utils/date';
 import { Icon } from 'astro-icon/components'
 import { phoneFormat } from '@/js/utils/numbers.format';
 const url = `https://alexsab.ru?utm_source=client&utm_medium=${BRAND}&utm_compaing=${SITE_NAME}`
-import salons from '@/data/salons.json';
+import salonsData from '@/data/salons.json';
+const salons = salonsData.filter((salon) => (salon?.site_regions.includes(Region.FOOTER)));
 const path = Astro.url.pathname;
 import logo from '@/components/Logo/logo.svg';
 // SOCIALS

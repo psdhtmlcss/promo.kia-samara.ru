@@ -5,8 +5,9 @@ import MapWidget from '@/components/Map/Widget.astro';
 import AutoShowModal from '@/components/AutoShowModal.astro';
 import InfoItem from '@/components/Contacts/InfoItem.astro';
 import WorkerItem from '@/components/Contacts/WorkerItem.astro';
-import {SITE_NAME, LEGAL_ENTITY, LEGAL_INN, LINK_WIDGET_ORGNIZATION} from '@/const';
-import salons from '@/data/salons.json';
+import {SITE_NAME, LEGAL_ENTITY, LEGAL_INN, LINK_WIDGET_ORGNIZATION, SalonType} from '@/const';
+import salonsData from '@/data/salons.json';
+const salons = salonsData.filter((salon) => salon?.type === SalonType.MAIN);
 const salon = salons[0]; //временно, наверное
 let workers = [];
 salons.map(salon => salon?.workers && salon?.workers.length && salon.workers.map(worker => workers.push({...worker, salonName: salon.name})));

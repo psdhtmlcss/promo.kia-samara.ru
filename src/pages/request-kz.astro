@@ -5,6 +5,7 @@ import Checkbox from '@/components/Checkbox/Checkbox.astro';
 import Input from '@/components/Input.astro';
 import ChoosingDealerSelect from '@/components/ChoosingDealerSelect/ChoosingDealerSelect.astro';
 import {SITE_NAME, BRAND, AGREE_LABEL, LEGAL_ENTITY, LEGAL_INN, LEGAL_CITY} from '@/const';
+
 ---
 <PageLayout
 	h1="Новые КИА 2025 года из&nbsp;Казахстана"
@@ -162,7 +163,7 @@ import {SITE_NAME, BRAND, AGREE_LABEL, LEGAL_ENTITY, LEGAL_INN, LEGAL_CITY} from
 				required
 				errorClasses="text-red-500"
 			/>
-			<ChoosingDealerSelect required={true} />
+			<ChoosingDealerSelect required={true} salons={[]} />
 			<Checkbox
 				name="agree"
 				label={AGREE_LABEL}

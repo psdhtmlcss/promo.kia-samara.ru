@@ -2,12 +2,12 @@
 interface Props {
 	required?: boolean;
 	errorMessage?: string;
+	salons?: any;
 }
 const { required, errorMessage = 'Выберите дилерский центр' } = Astro.props;
 import FormSelect from '@/components/FormSelect.astro';
-import salons from '@/data/salons.json';
-const path = Astro.url.pathname;
-const options = (path ==='/service-request/') ? salons.map((salon, idx) => ({id: idx, name: salon.name})) : salons.filter((salon, idx) => { if (salon.type !== 'service') return {id: idx, name: salon.name}});
+const { salons } = Astro.props;
+const options = salons.map((salon, idx) => ({id: idx, name: salon.name}));
 
 ---
 {options.length > 1 && (

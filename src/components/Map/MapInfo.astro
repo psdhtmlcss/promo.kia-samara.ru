@@ -1,7 +1,7 @@
 ---
-import salons from '@/data/salons.json'
+import salonsData from '@/data/salons.json'
 
-import { SITE_NAME, LEGAL_ENTITY, LEGAL_INN } from '@/const'
+import { SITE_NAME, LEGAL_ENTITY, LEGAL_INN, SalonType } from '@/const'
 
 import { phoneFormat } from '@/js/utils/numbers.format';
 
@@ -10,6 +10,7 @@ import {Icon} from 'astro-icon/components';
 import logo from '@/components/Logo/logo.svg';
 
 import InfoItem from '@/components/Contacts/InfoItem.astro';
+const salons = salonsData.filter((salon) => (salon?.type === SalonType.MAIN));
 const space = salons.length > 1 ? 'space-y-2' : 'space-y-4';
 ---
 

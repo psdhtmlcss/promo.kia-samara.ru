@@ -49,3 +49,15 @@ import salons from '@/data/salons.json';
 const phones = PHONE ? [`<a class="whitespace-nowrap" href="tel:${phoneFormat(PHONE)}">${PHONE}</a>`] : salons.map((salon) => { return `<span>${salon.name}</span> <a class="whitespace-nowrap" href="tel:${phoneFormat(salon.phone)}">${salon.phone}</a>` });
 
 export const FOOTER_INFO = '<sup>*</sup> Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 ГК РФ. Все цены, указанные на данном сайте, носят информационный характер. Для получения подробной информации просьба обращаться к менеджерам отдела продаж по номеру телефона '+phones.join(', ')+'. Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.';
+
+export const Region = {
+	HEADER: 'header',
+	FOOTER: 'footer',
+	MODAL: 'modal'
+};
+
+export const SalonType = {
+	MAIN: 'main',
+	SERVICE: 'service',
+	TEST_DRIVE: 'test_drive'
+};
